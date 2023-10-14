@@ -1,0 +1,21 @@
+.d{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px;;
+}
+.textt{
+    margin-left: 20px;
+}
+
+.dd{
+    background-color: rgb(241, 239, 239);
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 20px;
+}
