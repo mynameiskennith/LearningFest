@@ -1,0 +1,14 @@
+*{
+    margin: 3px;
+}
+.hh1{
+    border-top: 2px solid black;
+    display: inline-block;
+}
+.hh2{
+    text-decoration: line-through;
+}
+
+.hh3{
+    text-decoration: underline;
+}
