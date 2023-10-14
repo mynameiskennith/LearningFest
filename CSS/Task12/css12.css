@@ -1,0 +1,19 @@
+.thr1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    margin-top: 0px;
+}
+.thr2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-block-end: 0px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
