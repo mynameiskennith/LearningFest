@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="">Enter Principal Amount : </label> <br>
+        <input id="P" type="text"><br><br>
+        <label for="">Enter Interest Rate : </label> <br>
+        <input id="R" type="text"><br><br>
+        <label for="">Enter Number of Years : </label> <br>
+        <input id="N" type="text"><br><br>
+        <button onclick="calc()">Calculate</button><br><br>
+        <label for="">Enter EMI Amount : </label> <br>
+        <input id="E" type="text"><br><br>
+    </div>
+</body>
+
+<script>
+    function calc(){
+        var p,r,n,emi,i
+        p=parseInt(document.getElementById("P").value)
+        r=parseInt(document.getElementById("R").value)
+        n=parseInt(document.getElementById("N").value)
+
+        i=(p*n*r)/100
+        emi=((p/n)+i)/12
+        document.getElementById("E").value=emi+" Rs"
+    }
+</script>
+</html>
